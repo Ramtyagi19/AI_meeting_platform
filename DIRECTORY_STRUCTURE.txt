@@ -1,0 +1,64 @@
+AI_meeting_platform/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── api/
+│   │   │   ├── routes.py
+│   │   │   └── __pycache__/
+│   │   ├── audio/
+│   │   │   └── transcriber.py
+│   │   ├── genai/
+│   │   │   ├── actions.py
+│   │   │   ├── followup.py
+│   │   │   ├── summarizer.py
+│   │   │   └── __pycache__/
+│   │   ├── ml/
+│   │   │   ├── anomaly.py
+│   │   │   ├── sentiment.py
+│   │   │   ├── topic_clustering.py
+│   │   │   └── __pycache__/
+│   │   ├── rag/
+│   │   │   ├── qa.py
+│   │   │   ├── vector_store.py
+│   │   │   └── __pycache__/
+│   │   └── __pycache__/
+│   └── ml/
+│       (empty)
+├── frontend/
+│   └── app.py
+├── streaming/
+│   ├── consumer.py
+│   └── producer.py
+├── tests/
+│   ├── test_api.py
+│   ├── test_ml.py
+│   └── test_rag.py
+├── vectordb/
+│   └── chroma_store.py
+└── DIRECTORY_STRUCTURE.txt
+
+Key Components:
+===============
+
+Backend:
+  - API Routes & Services
+  - Audio Processing (Transcription)
+  - GenAI Models (Actions, Follow-ups, Summarization)
+  - ML Pipeline (Anomaly Detection, Sentiment Analysis, Topic Clustering)
+  - RAG System (Q&A, Vector Store)
+
+Frontend:
+  - Main application file
+
+Streaming:
+  - Data Producer
+  - Data Consumer
+
+Database:
+  - Chroma Vector Store Integration
+
+Testing:
+  - API Tests
+  - ML Tests
+  - RAG Tests
