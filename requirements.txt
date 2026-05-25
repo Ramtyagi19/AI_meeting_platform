@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+streamlit
+requests
+textblob
+scikit-learn
+chromadb
+sentence-transformers
+faster-whisper
+kafka-python
+pytest
+httpx
